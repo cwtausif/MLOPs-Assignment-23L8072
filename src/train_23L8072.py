@@ -1,3 +1,3 @@
 print("Loading data...")
-X=3
-X_scaled = (X - X.min()) / (X.max() - X.min())
+X = data[features]
+X = (data[features] - data[features].min()) / (data[features].max() - data[features].min())

@@ -1,0 +1,28 @@
+# Data and generated model artifacts
+data/*
+model/*
+outputs/
+.vincent/
+
+# Keep directory placeholders if they are ever added intentionally
+!data/.gitkeep
+!model/.gitkeep
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Serialized model files
+*.pkl
+*.h5
+
+# Non-source analysis artifacts
+*.ipynb
